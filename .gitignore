@@ -1,0 +1,32 @@
+00_raw_data/
+02_analysis/
+.Rproj.user/
+.RDataTmp*
+.claude/
+gdc-client
+gdc-client_*.zip
+gdc_client_configuration.dtt
+_test_run/
+run_logs/
+# Figures rewritten by every run (journal entry 9); a fresh clone rebuilds
+# them: 05 (km_risk_groups.pdf, c_index_stability.pdf), 13 (cbx5/),
+# 14 (sign_bias/) and 15 (external_validation/). archive/ stays tracked.
+03_figures/*
+!03_figures/archive/
+# runner console captures (FULL runs)
+/full_run*.out
+# run manifests of 02 and 07 (G13), rewritten by every run
+01_processed_data/run_manifest_*.txt
+# R data saves and session/editor artefacts, in any directory (G10): never
+# tracked. The extension rules match any letter case, so they also hold on
+# case-sensitive (Linux/WSL) checkouts. Every .rds is derived or downloaded by
+# the pipeline; to commit one on purpose (e.g. a fixture), add a ! exception.
+*.[Rr][Dd][Ss]
+*.[Rr][Dd][Aa][Tt][Aa]
+*.[Rr][Dd][Aa]
+.Rhistory
+.Rapp.history
+.vscode/
+.Ruserdata/
+.httr-oauth
+.DS_Store

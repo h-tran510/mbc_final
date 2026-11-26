@@ -1,0 +1,3 @@
+# The image needs only the lockfile; code and data are mounted at run time.
+*
+!renv.lock

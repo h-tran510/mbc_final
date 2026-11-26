@@ -1,0 +1,36 @@
+Package: mbc26
+Title: TCGA-BRCA Promoter-Methylation Screen for Progression-Free Interval
+Version: 0.0.0.9000
+Description: Analysis project, not an installable package. This file lists
+    the R packages the scripts in deployed_scripts_v1/ and test_mode/ load
+    (plus R.utils, which data.table::fread needs for .gz input). renv.lock
+    pins them and their dependencies; README.md, section Install, installs
+    them.
+Depends: R (>= 4.6)
+Imports:
+    car,
+    data.table,
+    DESeq2,
+    doParallel,
+    dplyr,
+    foreach,
+    ggplot2,
+    glmnet,
+    here,
+    IlluminaHumanMethylation450kanno.ilmn12.hg19,
+    jsonlite,
+    matrixStats,
+    minfi,
+    prodlim,
+    R.utils,
+    readxl,
+    riskRegression,
+    sesame,
+    SummarizedExperiment,
+    survival,
+    survminer,
+    sva,
+    TCGAbiolinks,
+    tidyr,
+    timeROC
+biocViews:

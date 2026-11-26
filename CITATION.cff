@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "mbc_26: confound-adjusted promoter-methylation screen for breast-cancer progression in TCGA-BRCA"
+type: software
+authors:
+  - family-names: Tran
+    given-names: Helen
+    # TODO: add orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+repository-code: "https://github.com/leapforce-ai/mbc_26"
+license: MIT
+# No DOI yet: add `doi:` once a release is archived.
+keywords:
+  - DNA methylation
+  - breast cancer
+  - survival analysis
+  - TCGA
+  - PAM50
+  - tumour purity
+  - R
